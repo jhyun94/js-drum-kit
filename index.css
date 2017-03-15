@@ -1,0 +1,32 @@
+html {
+  background: url(https://cdn.pixabay.com/photo/2016/08/27/16/37/amethyst-1624461_960_720.jpg)bottom center;
+  background-size: cover;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  min-height: 100vh;
+}
+
+.box h1,p {
+  color: #A5B85D;
+}
+
+.box p {
+  font-size: 18px;
+}
+
+.box {
+  padding: 0 3%;
+  border: 2px solid #A5B85D;
+  margin: 0 1%;
+  text-align: center;
+}
