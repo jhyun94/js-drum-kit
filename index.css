@@ -9,8 +9,24 @@ body,html {
 }
 
 .container {
-  max-width: 90%;
-  margin: 0 auto;
-  padding: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  min-height: 100vh;
 }
 
+.box h1,p {
+  color: #A5B85D;
+}
+
+.box p {
+  font-size: 18px;
+}
+
+.box {
+  padding: 0 3%;
+  border: 2px solid #A5B85D;
+  margin: 0 1%;
+  text-align: center;
+}
